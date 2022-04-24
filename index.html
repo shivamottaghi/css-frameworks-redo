@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>css frameworks redo</title>
+    <link rel="stylesheet" href="style.css">
     <!-- BOOTSTRAP CSS LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body style="background-color:#b9e5ff;">
-<!--************ MY CARDS ************-->
+<!--********** NAVBAR **********-->
+<div class="parent-container d-flex">
+    <div class="container" style="width: fit-content ; padding-left: 0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left z-index-1 h-100" style="left: 0; margin-left: 0">
+
+        </nav>
+    </div>
+    <!--************ MY CARDS ************-->
 
     <div class="container" style="background-color:#b9e5ff;">
+
+        <!--*********************** FIRST ROW ***********************-->
+
         <div class="row d-flex justify-content-around my-3 ">
             <div class="col col-md-3">
                 <div class="card m-auto h-100">
@@ -94,8 +105,9 @@
                 </div>
             </div>
         </div>
+        <!--*********************** SECOND ROW ***********************-->
         <div class="row d-flex justify-content-around my-3">
-            <div class="col col-md-3 d-flex align-items-stretch">
+            <div class="col col-md-3 d-flex ">
                 <div class="card m-auto h-100">
                     <img src="images/desk.png" class="card-img-top" alt="..." style="width: 100px; align-self: center">
                     <div class="card-body text-center">
@@ -113,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-md-3 d-flex align-items-stretch">
+            <div class="col col-md-3 d-flex ">
                 <div class="card m-auto h-100">
                     <img src="images/mortarboard.png" class="card-img-top" alt="..."
                          style="width: 100px; align-self: center">
@@ -132,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-md-3 d-flex align-items-stretch">
+            <div class="col col-md-3 d-flex ">
                 <div class="card m-auto h-100">
                     <img src="images/physics.png" class="card-img-top" alt="..."
                          style="width: 100px; align-self: center">
@@ -152,7 +164,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-md-3 d-flex align-items-stretch">
+            <div class="col col-md-3 d-flex">
                 <div class="card m-auto h-100">
                     <img src="images/books%20(1).png" class="card-img-top" alt="..."
                          style="width: 100px; align-self: center">
@@ -175,7 +187,6 @@
         </div>
     </div>
 </div>
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

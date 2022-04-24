@@ -1,0 +1,6 @@
+.navbar.fixed-left {
+    bottom: 0;
+    width: 100px;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}x-start;
